@@ -1,0 +1,353 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: #36454f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  /* background-color: #1e1a20; */
+}
+
+header .signature {
+  margin-left: 10px;
+  font-family: "Corinthia", cursive;
+  color: white;
+  font-size: 27px;
+}
+
+header .link {
+  color: white;
+  margin-right: 40px;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  background-color: green;
+  border: none;
+}
+
+main .show {
+  display: block;
+  background-image: linear-gradient(
+    to bottom,
+    #1e1a20,
+    #413845,
+    #7f6e87,
+    #36454f
+  );
+  width: 25%;
+  text-align: center;
+  padding-top: 40vh;
+  font-weight: bold;
+  border: none;
+}
+
+main .show a {
+  color: white;
+  font-size: 20px;
+}
+
+main .show1:hover {
+  background-image: url(https://images.unsplash.com/photo-1491406213019-05b162a72c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=861&q=80);
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+main .show2:hover {
+  background-image: url(https://images.unsplash.com/photo-1504275107627-0c2ba7a43dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+main .show3:hover {
+  background-image: url(https://images.unsplash.com/photo-1503914068268-5413b35b45ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+main .show4:hover {
+  background-image: url(https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#about {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about .my-pic img {
+  height: 60vh;
+  width: 25vw;
+  border: 2px solid #1a2227;
+  border-radius: 10px;
+}
+
+#about .content {
+  width: 600px;
+  font-size: 18px;
+  padding: 8px;
+}
+
+#about .content p {
+  letter-spacing: 1px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#projects .projects .project .my-gg {
+  width: 398px;
+  height: 220px;
+  border-radius: 50px;
+}
+
+#projects .projects .project .guessnumber {
+  width: 398px;
+  height: 220px;
+  border-radius: 50px;
+  display: block;
+}
+
+#projects .projects .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#projects .projects .project {
+  width: 400px;
+  height: auto;
+  background-color: #14191d;
+  color: white;
+  border: 1px solid #cbd5db;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+#projects .projects .project .live-site {
+  border: 1px solid #cbd5db;
+  padding: 20px;
+  color: white;
+}
+
+#projects .projects .project .live-site:hover {
+  opacity: 0.7;
+}
+
+#skills {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills .skills {
+  display: flex;
+  flex-direction: row;
+}
+
+#skills .skills .box {
+  width: 180px;
+  height: 200px;
+  background-color: white;
+  color: black;
+  border: 10px solid black;
+  border-radius: 50px;
+  margin: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#skills .skills .bigger {
+  width: 500px;
+}
+
+#skills .skills .box figure img {
+  height: 50px;
+  width: auto;
+}
+
+#skills .skills .box figure {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#skills .skills .box figure figcaption {
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 0;
+  background: #1e1a20;
+}
+
+#contact .contact-card {
+  height: 30rem;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+  box-shadow: 20px 20px 22px rgb(0 0 0 / 20%);
+  margin: 10px;
+}
+
+#contact .contact-card .contact-desc {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+}
+
+#contact .contact-card .primary-text {
+  color: #d5d5d5;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  margin: 1px 0;
+}
+
+#contact .contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+#contact .contact-form .contact-input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  opacity: 0.4;
+}
+
+#contact .contact-form textarea {
+  width: 685px;
+  height: 199px;
+}
+
+#contact .contact-button {
+  width: 80%;
+  height: 10%;
+  padding: 15px 0;
+  position: absolute;
+  left: 10%;
+  bottom: 30px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+
+footer .fa {
+  padding: 8px;
+  font-size: 28px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer .fa:hover {
+  opacity: 0.7;
+}
+
+footer .fa-facebook {
+  background: #3b5998;
+  color: white;
+  border-radius: 50%;
+}
+
+footer .fa-instagram {
+  background: #f09433;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white;
+  border-radius: 50%;
+}
+
+footer .fa-github {
+  background: black;
+  color: white;
+  border-radius: 50%;
+}
+
+footer .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+}

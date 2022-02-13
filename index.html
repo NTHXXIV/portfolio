@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NTH portfolio</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- social media button -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="signature">Nguyễn Trung Hiếu</div>
+      <nav>
+        <a href="#show" class="link">Home</a>
+        <a href="#about" class="link">About</a>
+        <a href="#skills" class="link">Skills</a>
+        <a href="#contact" class="link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="show">
+      <div class="show show1">
+        <a href="#projects" class="link">Project I</a>
+      </div>
+      <div class="show show2">
+        <a href="#projects" class="link">Project II</a>
+      </div>
+      <div class="show show3">
+        <a href="#projects" class="link">Project III</a>
+      </div>
+      <div class="show show4">
+        <a href="#projects" class="link">Project IV</a>
+      </div>
+    </main>
+
+    <!-- about -->
+    <section id="about">
+      <div class="my-pic"><img src="./src/mypic" alt="My picture" /></div>
+      <div class="content">
+        <h1>About</h1>
+        <p>
+          Hello, my name is Nguyen Trung Hieu and
+          <br />
+          I'm a Full Stack Web Developer.
+        </p>
+        <p>
+          I have a passion for minimalism , Simplicity is the ultimate
+          sophistication. I also love coding and logic.
+        </p>
+        <p>
+          I learned International Business at university and had worked as a
+          Operation Supervisor for 2 year.
+          <br />
+          However, after graduated at CoderSchool, I discovered my passion for
+          computer science.
+        </p>
+        <p>
+          Besides that, I love playing basketball and have a basketball club.
+          <br />
+          Therefore, if we have the same passion you can contact and join us.
+        </p>
+      </div>
+    </section>
+
+    <!--Projects  -->
+    <section id="projects">
+      <div>
+        <h1>Projects</h1>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <img src="./src/mygg" alt="My GG" class="my-gg" />
+          <div class="content">
+            <h2>Google Landing Page</h2>
+            <p>Tech Used - Html Css</p>
+            <a href="https://e8cy1.csb.app/" class="live-site">Live Site</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./src/numguess" alt="Guess Number" class="guessnumber" />
+          <div class="content">
+            <h2>Number Guessing</h2>
+            <p>Tech Used - Html Css Js</p>
+            <a href="https://codepen.io/nthxxiv/full/MWEOgLj" class="live-site"
+              >Live Site</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div>
+        <h1>Skills</h1>
+      </div>
+      <div class="skills">
+        <div class="box langueges">
+          <h2>Languages</h2>
+          <figure>
+            <figcaption>
+              <img src="./src/js.png" alt="JS" />
+              Javascript
+            </figcaption>
+          </figure>
+        </div>
+        <div class="box bigger technologies">
+          <h2>Technologies</h2>
+          <figure>
+            <figcaption>
+              <img src="./src/atom.png" alt="ReactJS" />
+              ReactJS
+            </figcaption>
+            <figcaption>
+              <img src="./src/nodejs.png" alt="NodeJS" />
+              NodeJS
+            </figcaption>
+            <figcaption>
+              <img src="./src/express.jpg" alt="ExpressJS" />
+              ExpressJS
+            </figcaption>
+            <figcaption>
+              <img src="./src/mongodb.png" alt="MongoDB" />
+              MongoDB
+            </figcaption>
+          </figure>
+        </div>
+        <div class="box tools">
+          <h2>Tools</h2>
+          <figure>
+            <figcaption>
+              <img src="./src/vscode.png" alt="VS Code" />
+              VS Code
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="contact-card">
+        <div class="contact-desc">
+          <h3 class="primary-text">Contact Me</h3>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <input
+            type="text"
+            placeholder="Your name"
+            id="contact-name"
+            class="contact-input"
+          />
+          <input
+            type="email"
+            placeholder="Your email"
+            id="contact-email"
+            class="contact-input"
+          />
+          <textarea
+            placeholder="Message"
+            id="contact-message"
+            class="contact-input"
+          ></textarea>
+        </form>
+        <button class="contact-button primary-text">Send Message</button>
+      </div>
+    </section>
+
+    <footer>
+      <a
+        href="https://www.facebook.com/nth.trunghieu"
+        class="fa fa-facebook"
+      ></a>
+      <a href="https://www.instagram.com/nth9731_/" class="fa fa-instagram"></a>
+      <a href="https://github.com/NTHXXIV" class="fa fa-github"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+    </footer>
+  </body>
+</html>
